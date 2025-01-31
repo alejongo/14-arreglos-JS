@@ -5,10 +5,6 @@ const enAlquierDiv = document.getElementById('en_alquiler_container')
 
 
 
-
-
-
-
 // Mostrar propiedades en Alquiler Home
 const mostrarPropiedadesHome = (propiedades, divToRender) => {
   let html = ''
@@ -48,9 +44,10 @@ const mostrarPropiedadesHome = (propiedades, divToRender) => {
           </div>
         </div>
         `
-    divToRender.innerHTML = html
+
 
   }
+  divToRender.innerHTML = html
 }
 
 mostrarPropiedadesHome(propiedades_venta, enVentaDiv)

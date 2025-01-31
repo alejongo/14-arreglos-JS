@@ -45,8 +45,9 @@ const mostrarTodasPropiedades = (propiedades, divToRender) => {
             </div>
           </div>
           `
-      divToRender.innerHTML = html
+
     })
+    divToRender.innerHTML = html
   }
 }
 

@@ -53,7 +53,7 @@ export const propiedades_alquiler = [
         costo: 4280,
         smoke: false,
         pets: true
-    }
+    },
 ]
 
 
